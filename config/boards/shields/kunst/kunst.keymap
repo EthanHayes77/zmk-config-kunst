@@ -158,74 +158,11 @@
 
 		alpha1 {
 			bindings = <
-								&hm_l LCTL L	&hm_l LALT G	&hm_l LGUI D		&hm_r RGUI H	&hm_r RALT U	&hm_r RCTL O	  
-				&hl_l NM1 I		&hl_l SM2 S		&hl_l SM1 R		&hl_l SYS T			&hl_r SYS N		&hl_r SM1 E		&hl_r SM2 A		&hl_r NM1 C
-								&mt LC(LS(LALT)) SPC	&key_repeat					&caps_alpha2macro	&alpha2macro
+								&kp A	&kp B	&kp C			&kp D	&kp E	&kp F	  
+				&kp G		&kp H		&kp I		&kp J			&kp K		&kp L		&kp M		&kp N
+								&kp O	&kp P					&kp Q	&kp R
 			>;
 		};
 
-		alpha2 {
-			bindings = <
-						&kp V	&kp W	&kp M		&kp F	&kp SQT		&kp Z
-				&kp Q	&kp J	&kp P	&kp K		&kp B	&kp DOT		&kp X	&kp Y 
-						&sk LSHIFT	&trans			&none	&sl AL2U	
-			>;
-		};
-
-		sym1 {
-			bindings = <
-							&kp LA(N3)	&kp LS(N3)	&kp DLLR		&kp LS(COMMA)	&kp LS(DOT)		&kp CARET
-				&kp GRAVE	&kp TILDE	&kp UNDER	&kp BSLH		&kp LBKT		&kp RBKT		&kp PIPE &kp SLASH
-							&none	&none							&none	&kp RGUI
-			>;
-		};
-
-		sym2 {
-			bindings = <
-							&kp ATSN	&kp K_VOL_DN	&kp K_VOL_UP		&kp LPRN	&kp RPRN	&kp SEMI
-				&kp STAR	&kp PRCNT	&td QMARK EXCL	&kp DQT				&kp LBRC	&kp RBRC	&kp AMPS	&kp COLON 
-							&none	&none									&none	&kp RGUI
-			>;
-		};
-
-		num {
-			bindings = <
-							&td DOT COMMA	&hm_l LALT N0	&hm_l LGUI N1		&hm_r RGUI N2	&hm_r RALT N3	&hm_r RCTL N4
-				&kp MINUS	&kp PLUS		&kp N5			&kp N6				&kp N7			&kp N8			&kp N9		&kp EQUAL
-							&kp LSHIFT	&trans									&kp RCTL	&kp RGUI
-			>;
-		};
-
-		sys {
-			bindings = <
-									&kp ESC			&kp LC(LS(TAB))		&kp RC(TAB)			&td LG(V) LG(C)		&kp UP		&td Q BKSP
-				&td LG(GRAVE) TAB	&td HOME DEL	&td END LG(LBKT)	&kp LG(RBKT)		&td TAB LEFT		&kp DOWN	&td  LG(LS(N5)) RIGHT	&kp RET
-									&sr LSHIFT AL1		&kp LALT							&kp RALT	&kp RGUI
-			>;
-		};
-
-		bt {
-			bindings = <
-								&bt BT_PRV	&bt BT_NXT	&trans			&trans	&trans	&trans
-				&bootloader		&trans		&trans		&trans			&trans	&trans	&trans	&bt BT_CLR
-								&to AL1		&none						&none	&none
-			>;
-		};
-
-		alpha2cap {
-			bindings = <
-							&kp LS(V)	&kp LS(W)	&kp LS(M)		&kp LS(F)	&kp DQT		&kp LS(Z)
-				&kp LS(Q)	&kp LS(J)	&kp LS(P)	&kp LS(K)		&kp LS(B)	&kp COMMA	&kp LS(X)	&kp LS(Y) 
-							&trans	&trans							&trans	&trans
-			>;
-		};
-
-		img {
-			bindings = <
-							&kp LCTL	&kp LALT	&kp LGUI		&none	&none	&kp BKSP
-				&kp LSHIFT  &td M I		&td P B		&td A V			&none	&none	&none	&kp RET
-							&kp SPC		&to AL1						&none	&none
-			>;
-		};
 	};
 };
